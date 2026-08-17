@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parshant Singh | Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Parshant Singh – B.Tech AI-ML student, Flutter developer, and AI enthusiast at Akal University.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Newsreader:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="page">
+        <!-- Sidebar / Masthead nav -->
+        <aside class="sidebar">
+            <div>
+                <div class="sidebar-mast">
+                    <a href="#home" class="mast-name">Parshant Singh</a>
+                    <span class="mast-role">B.Tech AI-ML — Akal University</span>
+                </div>
+
+                <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="sidebarIndex">
+                    Index <i class="fas fa-chevron-down"></i>
+                </button>
+
+                <nav>
+                    <ul class="sidebar-index" id="sidebarIndex">
+                        <li><a href="#home"><span class="idx-num mono">00</span> Start</a></li>
+                        <li><a href="#about"><span class="idx-num mono">01</span> About</a></li>
+                        <li><a href="#skills"><span class="idx-num mono">02</span> Skills</a></li>
+                        <li><a href="#projects"><span class="idx-num mono">03</span> Projects</a></li>
+                        <li><a href="#education"><span class="idx-num mono">04</span> Education</a></li>
+                        <li><a href="#certifications"><span class="idx-num mono">05</span> Credentials</a></li>
+                        <li><a href="#contact"><span class="idx-num mono">06</span> Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="sidebar-foot">
+                <div class="sidebar-socials">
+                    <a href="https://github.com/parshant-singh" target="_blank" aria-label="GitHub"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/parshant-singh" target="_blank" aria-label="LinkedIn"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:parshantsiingh@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+                <a href="mailto:parshantsiingh@gmail.com" class="sidebar-hire">Say hello →</a>
+            </div>
+        </aside>
+
+        <!-- Main content -->
+        <main class="content">
+            <!-- Masthead -->
+            <section class="masthead" id="home">
+                <div class="masthead-copy">
+                    <span class="masthead-eyebrow mono">Mansa, Punjab — Portfolio</span>
+                    <h1 class="masthead-title">Parshant <em>Singh</em></h1>
+                    <p class="masthead-desc">
+                        B.Tech AI-ML student at Akal University who builds Flutter apps, tinkers with
+                        machine learning, and currently leads development on EduSupport.
+                    </p>
+                    <div class="masthead-actions">
+                        <a href="#projects" class="arrow-link primary">View the projects →</a>
+                        <a href="#contact" class="arrow-link">Get in touch →</a>
+                    </div>
+                </div>
+                <div class="masthead-figure">
+                    <div class="figure-frame">
+                        <img src="profile.svg" alt="Parshant Singh" id="profileImage">
+                    </div>
+                    <p class="figure-caption mono">Fig. 01 — Mansa, Punjab</p>
+                </div>
+            </section>
+
+            <!-- About -->
+            <section class="dossier" id="about">
+                <div class="dossier-head">
+                    <span class="dossier-num mono">01</span>
+                    <h2>About</h2>
+                </div>
+                <div class="about-layout">
+                    <div class="about-copy">
+                        <p>
+                            I'm Parshant Singh, a B.Tech student specializing in Artificial Intelligence
+                            &amp; Machine Learning at Akal University, Talwandi Sabo. I'm interested in
+                            using technology to solve problems that are actually in front of me, not
+                            hypothetical ones.
+                        </p>
+                        <p>
+                            My work spans cross-platform mobile development with Flutter, AI/ML
+                            engineering with Python, and building the backend systems that hold those
+                            things together. I'd rather ship something small and working than talk
+                            about something large and theoretical.
+                        </p>
+                        <p>
+                            Right now I'm the lead developer on the EduSupport student support
+                            application, and an active member of the Ink &amp; Pixel Club and the Web
+                            Crafters Club.
+                        </p>
+                    </div>
+                    <dl class="fact-list">
+                        <div class="fact-row">
+                            <dt>Address</dt>
+                            <dd>Ram Bagh Road, Mansa</dd>
+                        </div>
+                        <div class="fact-row">
+                            <dt>Degree</dt>
+                            <dd>B.Tech AI-ML</dd>
+                        </div>
+                        <div class="fact-row">
+                            <dt>SGPA</dt>
+                            <dd>89 (current semester)</dd>
+                        </div>
+                        <div class="fact-row">
+                            <dt>Roll No.</dt>
+                            <dd>237106027</dd>
+                        </div>
+                    </dl>
+                </div>
+            </section>
+
+            <!-- Skills -->
+            <section class="dossier" id="skills">
+                <div class="dossier-head">
+                    <span class="dossier-num mono">02</span>
+                    <h2>Skills</h2>
+                </div>
+                <p class="dossier-lede">Just the tools I've actually used, rated by how much I'd trust myself with them
+                    unsupervised.</p>
+                <div class="skills-layout">
+                    <div class="skill-group">
+                        <h3 class="skill-group-title">Programming Languages</h3>
+                        <div class="skill-row"><span class="skill-name">C / C++</span><span class="skill-bar"
+                                style="--lvl:90%"><span></span></span></div>
+                        <div class="skill-row"><span class="skill-name">Python</span><span class="skill-bar"
+                                style="--lvl:88%"><span></span></span></div>
+                        <div class="skill-row"><span class="skill-name">Dart</span><span class="skill-bar"
+                                style="--lvl:85%"><span></span></span></div>
+                        <div class="skill-row"><span class="skill-name">SQL</span><span class="skill-bar"
+                                style="--lvl:80%"><span></span></span></div>
+                        <div class="skill-row"><span class="skill-name">JavaScript</span><span class="skill-bar"
+                                style="--lvl:50%"><span></span></span></div>
+                    </div>
+                    <div class="skill-group">
+                        <h3 class="skill-group-title">Mobile Development</h3>
+                        <div class="skill-row"><span class="skill-name">Flutter</span><span class="skill-bar"
+                                style="--lvl:90%"><span></span></span></div>
+                        <div class="skill-row"><span class="skill-name">Android Studio</span><span class="skill-bar"
+                                style="--lvl:75%"><span></span></span></div>
+                        <div class="skill-row"><span class="skill-name">Firebase</span><span class="skill-bar"
+                                style="--lvl:80%"><span></span></span></div>
+                    </div>
+                    <div class="skill-group">
+                        <h3 class="skill-group-title">AI &amp; Machine Learning</h3>
+                        <div class="skill-row"><span class="skill-name">Machine Learning</span><span class="skill-bar"
+                                style="--lvl:80%"><span></span></span></div>
+                        <div class="skill-row"><span class="skill-name">Deep Learning</span><span class="skill-bar"
+                                style="--lvl:75%"><span></span></span></div>
+                        <div class="skill-row"><span class="skill-name">NLP</span><span class="skill-bar"
+                                style="--lvl:60%"><span></span></span></div>
+                        <div class="skill-row"><span class="skill-name">Reinforcement Learning</span><span
+                                class="skill-bar" style="--lvl:55%"><span></span></span></div>
+                    </div>
+                    <div class="skill-group">
+                        <h3 class="skill-group-title">Libraries &amp; Frameworks</h3>
+                        <div class="skill-row"><span class="skill-name">Pandas</span><span class="skill-bar"
+                                style="--lvl:82%"><span></span></span></div>
+                        <div class="skill-row"><span class="skill-name">NumPy</span><span class="skill-bar"
+                                style="--lvl:82%"><span></span></span></div>
+                        <div class="skill-row"><span class="skill-name">Scikit-learn</span><span class="skill-bar"
+                                style="--lvl:78%"><span></span></span></div>
+                        <div class="skill-row"><span class="skill-name">TensorFlow</span><span class="skill-bar"
+                                style="--lvl:50%"><span></span></span></div>
+                        <div class="skill-row"><span class="skill-name">PyTorch</span><span class="skill-bar"
+                                style="--lvl:50%"><span></span></span></div>
+                    </div>
+                    <div class="skill-group">
+                        <h3 class="skill-group-title">Web &amp; Backend</h3>
+                        <div class="skill-row"><span class="skill-name">HTML</span><span class="skill-bar"
+                                style="--lvl:75%"><span></span></span></div>
+                        <div class="skill-row"><span class="skill-name">CSS</span><span class="skill-bar"
+                                style="--lvl:70%"><span></span></span></div>
+                        <div class="skill-row"><span class="skill-name">Node.js</span><span class="skill-bar"
+                                style="--lvl:50%"><span></span></span></div>
+                        <div class="skill-row"><span class="skill-name">JavaScript</span><span class="skill-bar"
+                                style="--lvl:50%"><span></span></span></div>
+                    </div>
+                    <div class="skill-group">
+                        <h3 class="skill-group-title">Tools &amp; Platforms</h3>
+                        <div class="skill-row"><span class="skill-name">Git</span><span class="skill-bar"
+                                style="--lvl:90%"><span></span></span></div>
+                        <div class="skill-row"><span class="skill-name">GitHub</span><span class="skill-bar"
+                                style="--lvl:88%"><span></span></span></div>
+                        <div class="skill-row"><span class="skill-name">Jupyter Notebook</span><span class="skill-bar"
+                                style="--lvl:82%"><span></span></span></div>
+                        <div class="skill-row"><span class="skill-name">Linux</span><span class="skill-bar"
+                                style="--lvl:85%"><span></span></span></div>
+                        <div class="skill-row"><span class="skill-name">Windows</span><span class="skill-bar"
+                                style="--lvl:90%"><span></span></span></div>
+                        <div class="skill-row"><span class="skill-name">Docker</span><span class="skill-bar"
+                                style="--lvl:50%"><span></span></span></div>
+                    </div>
+                </div>
+                <div class="interests-row">
+                    <span class="tag-label mono">Interested in</span>
+                    <span class="pill">Artificial Intelligence</span>
+                    <span class="pill">AI Agents</span>
+                    <span class="pill">Backend Systems</span>
+                </div>
+            </section>
+
+            <!-- Projects -->
+            <section class="dossier" id="projects">
+                <div class="dossier-head">
+                    <span class="dossier-num mono">03</span>
+                    <h2>Projects</h2>
+                </div>
+                <p class="dossier-lede">Two things are live and playable right now. Everything else is still a notebook
+                    experiment, not a demo.</p>
+
+                <div class="project-entry">
+                    <span class="project-index mono">P.01</span>
+                    <div class="project-body">
+                        <div class="project-title-row">
+                            <h3>Snake Water Gun</h3>
+                            <span class="project-meta">Browser game — best of 10 rounds — 2026</span>
+                        </div>
+                        <p class="project-desc">
+                            A polished take on the classic hand-game, playable right in the browser.
+                            Started as a Flask app with a JSON API driving the round logic, then rebuilt
+                            to run fully client-side so the demo needs nothing installed.
+                        </p>
+                        <ul class="project-features">
+                            <li>Slot-style reveal for each round with a running history</li>
+                            <li>Keyboard shortcuts and a best-of-10 scoreboard</li>
+                            <li>Win/lose logic reproduced client-side from the original Flask app</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="pill">Python</span>
+                            <span class="pill">Flask</span>
+                            <span class="pill">JavaScript</span>
+                            <span class="pill">CSS</span>
+                        </div>
+                        <div class="project-footer">
+                            <a href="games/snake-water-gun/index.html" class="arrow-link primary">Play the demo →</a>
+                            <span class="status-note mono">Completed</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-entry">
+                    <span class="project-index mono">P.02</span>
+                    <div class="project-body">
+                        <div class="project-title-row">
+                            <h3>Snake Game</h3>
+                            <span class="project-meta">Desktop game — Python &amp; Pygame — 2026</span>
+                        </div>
+                        <p class="project-desc">
+                            A classic Snake build from scratch with Pygame — its own background, sound
+                            effects, and a welcome/game-over flow run by a small state machine. Pygame
+                            needs a local Python environment, so this one ships as a source download
+                            instead of a browser demo.
+                        </p>
+                        <ul class="project-features">
+                            <li>Real-time collision detection and score tracking</li>
+                            <li>Sound effects for eating food and game over</li>
+                            <li>Custom welcome screen and restart flow</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="pill">Python</span>
+                            <span class="pill">Pygame</span>
+                        </div>
+                        <div class="project-footer">
+                            <a href="downloads/snake_game.py" download class="arrow-link primary">Download the source
+                                →</a>
+                            <span class="status-note mono">Completed</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education -->
+            <section class="dossier" id="education">
+                <div class="dossier-head">
+                    <span class="dossier-num mono">04</span>
+                    <h2>Education</h2>
+                </div>
+                <div class="edu-list">
+                    <div class="edu-entry">
+                        <span class="edu-years mono">2023 – 2027</span>
+                        <div class="edu-content">
+                            <h3>B.Tech — Artificial Intelligence &amp; Machine Learning</h3>
+                            <p class="edu-institute">Akal University, Talwandi Sabo</p>
+                            <div class="edu-result">
+                                <span class="result-figure">SGPA 89</span>
+                                <span class="result-status">Currently pursuing</span>
+                            </div>
+                            <p class="edu-courses">Key courses: DSA, DBMS, OS, Computer Networks, ML, Deep Learning,
+                                Computer Vision</p>
+                        </div>
+                    </div>
+                    <div class="edu-entry">
+                        <span class="edu-years mono">2023</span>
+                        <div class="edu-content">
+                            <h3>12th Standard</h3>
+                            <p class="edu-institute">Gandhi Senior Secondary School</p>
+                            <div class="edu-result">
+                                <span class="result-figure">90.2%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="edu-entry">
+                        <span class="edu-years mono">2021</span>
+                        <div class="edu-content">
+                            <h3>10th Standard</h3>
+                            <p class="edu-institute">Khalsa Senior Secondary School</p>
+                            <div class="edu-result">
+                                <span class="result-figure">100%</span>
+                                <span class="result-status">Perfect score</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Certifications & Roles -->
+            <section class="dossier" id="certifications">
+                <div class="dossier-head">
+                    <span class="dossier-num mono">05</span>
+                    <h2>Credentials</h2>
+                </div>
+                <div class="cert-list">
+                    <div class="cert-row">
+                        <div>
+                            <h3>Agentic AI: From Learner to Builder</h3>
+                            <p>IBM SkillsBuild</p>
+                        </div>
+                        <span class="cert-date">2024</span>
+                    </div>
+                    <div class="cert-row">
+                        <div>
+                            <h3>Introduction to Machine Learning Concepts</h3>
+                            <p>Microsoft Learn</p>
+                        </div>
+                        <span class="cert-date">Jan 2026</span>
+                    </div>
+                    <div class="cert-row">
+                        <div>
+                            <h3>Cross-Platform App Development</h3>
+                            <p>Developed InteractED, a multi-platform educational app</p>
+                        </div>
+                        <span class="cert-date">Achievement</span>
+                    </div>
+                    <div class="cert-row">
+                        <div>
+                            <h3>ML Academic Project</h3>
+                            <p>Part of B.Tech coursework at Akal University</p>
+                        </div>
+                        <span class="cert-date">Achievement</span>
+                    </div>
+                </div>
+
+                <div class="positions-block">
+                    <h3 class="positions-title mono">Positions of Responsibility</h3>
+                    <div class="position-row">
+                        <span>Lead Developer</span>
+                        <span class="position-org">EduSupport — Student Support Application</span>
+                        <span class="position-year">2024 – Present</span>
+                    </div>
+                    <div class="position-row">
+                        <span>Member</span>
+                        <span class="position-org">Ink &amp; Pixel Club</span>
+                        <span class="position-year">2024 – Present</span>
+                    </div>
+                    <div class="position-row">
+                        <span>Member</span>
+                        <span class="position-org">Web Crafters Club</span>
+                        <span class="position-year">2024 – Present</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact -->
+            <section class="dossier" id="contact">
+                <div class="dossier-head">
+                    <span class="dossier-num mono">06</span>
+                    <h2>Contact</h2>
+                </div>
+                <p class="dossier-lede">Have a project idea or want to collaborate? Send a note.</p>
+                <div class="contact-layout">
+                    <dl class="contact-list">
+                        <dt class="mono">Email</dt>
+                        <dd><a href="mailto:parshantsiingh@gmail.com">parshantsiingh@gmail.com</a></dd>
+                        <dt class="mono">Phone</dt>
+                        <dd><a href="tel:+917009451091">+91-7009451091</a></dd>
+                        <dt class="mono">Address</dt>
+                        <dd>Ram Bagh Road, Mansa</dd>
+                        <dt class="mono">LinkedIn</dt>
+                        <dd><a href="https://linkedin.com/in/parshant-singh" target="_blank">parshant-singh</a></dd>
+                    </dl>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-field">
+                            <label for="name">Your name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="email">Your email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="form-submit">Send message</button>
+                        <p class="form-status" id="formStatus"></p>
+                    </form>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <span>Designed &amp; built by Parshant Singh</span>
+                <span>&copy; 2026</span>
+            </footer>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

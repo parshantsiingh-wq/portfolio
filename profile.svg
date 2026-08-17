@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <rect width="400" height="500" fill="#e2d6bd"/>
+  <rect x="16" y="16" width="368" height="468" fill="none" stroke="#211b14" stroke-width="2"/>
+  <circle cx="200" cy="205" r="86" fill="#a8461f" opacity="0.16"/>
+  <text x="200" y="235" font-family="Georgia, 'Times New Roman', serif" font-size="118" font-weight="700" fill="#211b14" text-anchor="middle">PS</text>
+  <text x="200" y="410" font-family="Georgia, 'Times New Roman', serif" font-size="19" letter-spacing="1" fill="#55493a" text-anchor="middle">PARSHANT SINGH</text>
+  <text x="200" y="436" font-family="Georgia, 'Times New Roman', serif" font-size="12" letter-spacing="3" fill="#8d8271" text-anchor="middle">PORTRAIT PLACEHOLDER</text>
+</svg>
